@@ -1,0 +1,52 @@
+===== ls -la ~ =====
+total 40
+drwxr-x--- 6 jhaay jhaay 4096 Nov 21 12:40 .
+drwxr-xr-x 3 root  root  4096 Nov 21 11:01 ..
+-rw-r--r-- 1 jhaay jhaay  220 Nov 21 11:01 .bash_logout
+-rw-r--r-- 1 jhaay jhaay 3771 Nov 21 11:01 .bashrc
+drwxr-x--- 4 jhaay jhaay 4096 Nov 21 11:03 .cache
+drwxr-x--- 5 jhaay jhaay 4096 Nov 21 12:40 .config
+-rw-r--r-- 1 jhaay jhaay  252 Nov 21 12:40 .gitconfig
+drwx------ 3 jhaay jhaay 4096 Nov 21 11:12 .local
+-rw-rw-r-- 1 jhaay jhaay    0 Nov 21 11:03 .motd_shown
+-rw-r--r-- 1 jhaay jhaay  807 Nov 21 11:01 .profile
+drwxr-xr-x 2 jhaay jhaay 4096 Nov 21 12:01 Capstone
+
+===== ps aux | head -10 =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  24524 15740 ?        Ss   10:58   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  10:58   0:00 /init
+root           3  0.0  0.0   3680  2216 hvc0     S+   10:58   0:00 init-watcher
+root           7  0.0  0.0   3852  2448 hvc0     Sl+  10:58   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          60  0.0  0.3  50456 17044 ?        S<s  10:58   0:00 /usr/lib/systemd/systemd-journald
+systemd+      94  0.0  0.2  22416 14508 ?        Ss   10:58   0:00 /usr/lib/systemd/systemd-resolved
+root         100  0.0  0.2  34812 12124 ?        Ss   10:58   0:00 /usr/lib/systemd/systemd-udevd
+root         185  0.0  0.0   2888  2008 ?        Ss   10:58   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         186  0.0  0.0   4472  3124 ?        Ss   10:58   0:00 /usr/sbin/cron -f -P
+
+===== df -h =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.8G     0  2.8G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            2.8G  4.0K  2.8G   1% /mnt/wsl
+drivers         476G  263G  213G  56% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            2.8G   60K  2.8G   1% /mnt/wslg
+none            2.8G     0  2.8G   0% /usr/lib/wsl/lib
+rootfs          2.7G  3.4M  2.7G   1% /init
+none            2.8G  552K  2.8G   1% /run
+none            2.8G     0  2.8G   0% /run/lock
+none            2.8G     0  2.8G   0% /run/shm
+none            2.8G  104K  2.8G   1% /mnt/wslg/versions.txt
+none            2.8G  104K  2.8G   1% /mnt/wslg/doc
+tmpfs           2.8G     0  2.8G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           554M   12K  554M   1% /run/user/1000
+C:\             476G  263G  213G  56% /mnt/c
+
+===== free -h =====
+               total        used        free      shared  buff/cache   available
+Mem:           5.4Gi       573Mi       4.5Gi       4.2Mi       454Mi       4.8Gi
+Swap:          2.0Gi          0B       2.0Gi
