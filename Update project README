@@ -1,0 +1,51 @@
+# Developer Ecosystem Portfolio
+
+Welcome to my Developer Ecosystem Portfolio. This repository showcases my learning, practical work, and technical skills developed throughout my semester as a Computer Science student.
+
+## About Me
+
+I am a first-year B.Tech Computer Science and Engineering student at KR Mangalam University, interested in programming, technology, and software development.
+
+## Project Objectives
+
+- Learn and practice Linux commands.
+- Develop Bash automation scripts.
+- Understand Git and GitHub.
+- Interact with APIs using Python.
+- Work with JSON data.
+- Create professional technical documentation.
+- Develop a career learning roadmap.
+
+## Repository Structure
+
+| Folder | Description |
+|---|---|
+| Linux | Linux commands and system documentation |
+| ShellScripts | Bash automation scripts |
+| API | API interaction using Python and JSON |
+| Portfolio | Resume, learning roadmap, and professional profile |
+| Screenshots | Supporting evidence of practical work |
+
+## Skills Demonstrated
+
+- Linux command line
+- Bash scripting
+- Git and GitHub
+- Python fundamentals
+- API interaction
+- JSON
+- Markdown documentation
+
+## Learning Goals
+
+My goal is to strengthen my programming fundamentals, develop problem-solving skills, build real-world projects, and gradually grow as a software developer.
+
+## Author
+
+Ayush Kumar Jha  
+B.Tech Computer Science & Engineering  
+KR Mangalam University
+
+---
+
+*This repository is part of my Semester Capstone Project.*
