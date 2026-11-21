@@ -1,20 +1,18 @@
+
 # Developer Ecosystem Portfolio
 
-Welcome to my Developer Ecosystem Portfolio. This project showcases my learning and practical work throughout the semester as a Computer Science student.
+Welcome to my Developer Ecosystem Portfolio. This project showcases my learning, technical skills, and practical work throughout my B.Tech Computer Science and Engineering journey.
 
 ## About Me
 
 I am a B.Tech Computer Science and Engineering student at KR Mangalam University. I am learning programming, Linux, Git, GitHub, and software development fundamentals.
 
-## Project Objectives
+## Project Sections
 
-- Practice Linux commands
-- Learn Bash scripting and automation
-- Understand Git and GitHub
-- Work with APIs using Python
-- Understand JSON data
-- Create technical documentation using Markdown
-- Develop a professional resume and learning roadmap
+- **Linux:** Linux commands, system information, and binary number representation.
+- **Shell Scripting:** Bash scripts for system monitoring and backup automation.
+- **API Interaction:** GitHub REST API and JSONPlaceholder data using curl and jq.
+- **Developer Portfolio:** Technical resume, learning roadmap, and personal portfolio website.
 
 ## Repository Structure
 
@@ -22,27 +20,32 @@ I am a B.Tech Computer Science and Engineering student at KR Mangalam University
 |---|---|
 | Linux | Linux commands and system documentation |
 | ShellScripts | Bash automation scripts |
-| API | Python API interaction and JSON responses |
-| Portfolio | Resume, LinkedIn profile, and learning roadmap |
-| Screenshots | Supporting project evidence |
+| API | API responses and JSON data |
+| Portfolio | Resume and learning roadmap |
+| Screenshots | Project demonstration evidence |
 
 ## Skills
 
-- Linux
+- Linux and Ubuntu
 - Bash Scripting
 - Git and GitHub
 - Python Fundamentals
-- API
+- REST APIs
 - JSON
 - Markdown
 
-## Learning Goal
+## Profiles
 
-My goal is to improve my programming knowledge, strengthen my problem-solving skills, and build practical projects while developing my skills as a software developer.
+- **GitHub:** [probablyoverthinking](https://github.com/probablyoverthinking)
+- **LinkedIn:** [Ayush Kumar Jha](https://www.linkedin.com/in/ayush-kumar-jha-067505416/)
+
+## Learning Goals
+
+My goal is to strengthen my programming knowledge, improve problem-solving skills, and build practical software development projects.
 
 ## Author
 
-Ayush Kumar Jha
+**Ayush Kumar Jha**
 
 B.Tech Computer Science and Engineering  
 KR Mangalam University
@@ -50,3 +53,4 @@ KR Mangalam University
 ---
 
 *Semester Capstone Project*
+
