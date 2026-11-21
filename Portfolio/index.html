@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Jha | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 70px 10%;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #94a3b8;
+            max-width: 650px;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            padding: 10px 18px;
+            border: 1px solid #334155;
+            border-radius: 8px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .contact a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Ayush.dev</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm <span>Ayush Kumar Jha</span></h1>
+
+        <p>
+            B.Tech Computer Science student at K.R. Mangalam University.
+            Currently learning programming, Linux, automation and software
+            development while building practical projects.
+        </p>
+
+        <a href="#projects" class="btn">Explore My Projects</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science student passionate about technology,
+            software development and problem-solving. I am currently
+            developing my skills in Python, Linux, Git and programming
+            fundamentals through coursework and hands-on projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>Linux</span>
+            <span>Bash</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>JSON</span>
+            <span>REST APIs</span>
+            <span>HTML</span>
+            <span>Markdown</span>
+            <span>VS Code</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>DeveloperPortfolio</h3>
+
+            <p>
+                A CSE portfolio project documenting Linux commands,
+                system information, Bash automation, API interactions,
+                Git workflows and my learning roadmap.
+            </p>
+
+            <a href="https://github.com/probablyoverthinking/DeveloperPortfolio"
+               target="_blank">
+                View Project →
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>CSE103 Lab</h3>
+
+            <p>
+                Linux, shell scripting, Git version control and
+                documentation practice completed during coursework.
+            </p>
+
+            <a href="https://github.com/probablyoverthinking/cse103-lab-LAB3"
+               target="_blank">
+                View Repository →
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Python Expense Filter</h3>
+
+            <p>
+                A Python project exploring data processing and
+                expense filtering.
+            </p>
+
+            <a href="https://github.com/probablyoverthinking/python-expense-filter"
+               target="_blank">
+                View Repository →
+        </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Connect With Me</h2>
+
+        <p>
+            Interested in learning, collaborating and building projects.
+        </p>
+
+        <br>
+
+        <a href="https://github.com/probablyoverthinking"
+           target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/ayush-kumar-jha-067505416/"
+           target="_blank">LinkedIn</a>
+
+        <a href="mailto:jhaayushkumar10@gmail.com">Email</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Ayush Kumar Jha | Built with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
