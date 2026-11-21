@@ -1,0 +1,23 @@
+========================================
+       SYSTEM INFORMATION REPORT
+========================================
+Name: Ayush Kumar Jha
+Roll Number: 2601010081
+Date: Sat Nov 21 12:55:34 UTC 2026
+
+---------- CPU INFORMATION ----------
+CPU Model: AMD Ryzen 7 7445HS w/ Radeon 740M Graphics
+CPU Cores: 6
+
+---------- MEMORY INFORMATION ----------
+Total Memory: 5.4Gi
+Used Memory: 584Mi
+
+---------- TOP 3 CPU PROCESSES ----------
+    PID COMMAND         %CPU
+      1 systemd          0.0
+    436 bash             0.0
+    100 systemd-udevd    0.0
+
+========================================
+Report generated successfully.
