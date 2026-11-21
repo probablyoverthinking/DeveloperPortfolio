@@ -1,0 +1,310 @@
+Linux Commands - Capstone Documentation
+
+Purpose:
+This document contains a collection of commonly used Linux commands
+practiced in the Ubuntu environment using WSL (Windows Subsystem
+for Linux). It covers navigation, file management, text processing,
+system monitoring, permissions, networking, and utilities.
+
+These commands were practiced to develop basic Linux terminal skills
+and understand command-line operations.
+
+1. pwd - Displays the present working directory.
+2. ls - Lists files and directories.
+3. ls -la - Lists all files, including hidden files, with detailed information.
+
+========================================
+1. NAVIGATION COMMANDS
+========================================
+
+pwd
+Displays the current working directory.
+
+Example:
+pwd
+
+ls
+Lists files and directories in the current location.
+
+Example:
+ls
+
+ls -la
+Lists all files, including hidden files, with detailed information.
+
+Example:
+ls -la
+
+cd
+Changes the current working directory.
+
+Examples:
+cd ~
+cd ~/Capstone
+cd ..
+
+========================================
+2. FILE AND DIRECTORY MANAGEMENT
+========================================
+
+mkdir
+Creates a new directory.
+
+Example:
+mkdir new_folder
+
+touch
+Creates an empty file.
+
+Example:
+touch file.txt
+
+cat
+Displays the contents of a file.
+
+Example:
+cat file.txt
+
+cp
+Copies files or directories.
+
+Example:
+cp file.txt copy.txt
+
+mv
+Moves or renames files and directories.
+
+Example:
+mv old.txt new.txt
+
+rm
+Removes files.
+
+Example:
+rm file.txt
+
+rmdir
+Removes an empty directory.
+
+Example:
+rmdir empty_folder
+
+
+========================================
+3. TEXT AND FILE VIEWING
+========================================
+
+head
+Displays the first lines of a file.
+
+Example:
+head file.txt
+
+tail
+Displays the last lines of a file.
+
+Example:
+tail file.txt
+
+grep
+Searches for specific text inside a file.
+
+Example:
+grep "Linux" file.txt
+
+wc
+Counts lines, words, and characters.
+
+Examples:
+wc -l file.txt
+wc -w file.txt
+wc -m file.txt
+
+sort
+Sorts lines alphabetically or numerically.
+
+Example:
+sort file.txt
+
+uniq
+Removes consecutive duplicate lines.
+
+Example:
+sort file.txt | uniq
+
+
+========================================
+4. SYSTEM MONITORING
+========================================
+
+date
+Displays the current date and time.
+
+Example:
+date
+
+uname
+Displays operating system and kernel information.
+
+Examples:
+uname
+uname -a
+uname -r
+
+whoami
+Displays the current username.
+
+Example:
+whoami
+
+who
+Displays currently logged-in user sessions.
+
+Example:
+who
+
+ps
+Displays information about running processes.
+
+Example:
+ps
+
+top
+Displays running processes and system resource usage.
+
+Example:
+top
+
+uptime
+Displays how long the system has been running and system load.
+
+Example:
+uptime
+
+free
+Displays memory usage.
+
+Example:
+free -h
+
+df
+Displays filesystem disk space.
+
+Example:
+df -h
+
+du
+Displays disk usage of files and directories.
+
+Example:
+du -sh ~/Capstone
+
+
+========================================
+5. PERMISSIONS AND UTILITIES
+========================================
+
+chmod
+Changes file permissions.
+
+Example:
+chmod u+w file.txt
+
+sudo
+Runs a command with administrative privileges.
+
+Example:
+sudo apt update
+
+apt
+Manages software packages on Ubuntu.
+
+Example:
+sudo apt install tree
+
+which
+Displays the location of an executable command.
+
+Example:
+which python3
+
+echo
+Displays text or writes text into files.
+
+Examples:
+echo "Hello Linux"
+echo "Hello" > file.txt
+
+history
+Displays previously executed terminal commands.
+
+Example:
+history
+
+clear
+Clears the terminal screen.
+
+Example:
+clear
+
+
+========================================
+6. NETWORKING COMMANDS
+========================================
+
+ping
+Tests network connectivity to another host.
+
+Example:
+ping -c 4 google.com
+
+ip
+Displays network interfaces, IP addresses, and routing information.
+
+Examples:
+ip addr
+ip route
+
+hostname
+Displays the system's network name.
+
+Examples:
+hostname
+hostname -I
+
+
+========================================
+7. MISCELLANEOUS COMMANDS
+========================================
+
+file
+Identifies the type of a file.
+
+Example:
+file linux_commands.txt
+
+find
+Searches for files and directories.
+
+Examples:
+find ~ -name "linux_commands.txt"
+find ~ -name "*.txt"
+
+tree
+Displays directories and files in a tree structure.
+
+Example:
+tree ~/Capstone
+
+nano
+Opens a terminal-based text editor.
+
+Example:
+nano file.txt
+
+kill
+Sends a signal to a process.
+
+Example:
+kill PID
+
