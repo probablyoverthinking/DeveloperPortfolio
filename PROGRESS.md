@@ -46,3 +46,12 @@
 - Improve problem-solving skills.
 - Build a foundation in HTML and CSS.
 - Work towards completing coding platform exercises and certifications.
+## Coding Platform Quick Reference
+
+| Platform | URL | Purpose | Target |
+|---|---|---|---|
+| HackerRank | https://www.hackerrank.com/ | Python programming practice and skill development | Solve Python problems and improve coding fundamentals |
+| LeetCode | https://leetcode.com/ | Data structures and algorithm practice | Solve Easy problems and improve problem-solving |
+| freeCodeCamp | https://www.freecodecamp.org/ | Learn web development through interactive lessons | Complete HTML and CSS projects |
+| GeeksForGeeks | https://www.geeksforgeeks.org/ | Learn computer science concepts and practice coding | Strengthen programming and DSA fundamentals |
+| Kaggle | https://www.kaggle.com/ | Explore datasets and learn data science | Develop basic Python and data analysis skills |
